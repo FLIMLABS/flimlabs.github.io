@@ -7,7 +7,7 @@
 - Reset parameters button added
 - Free running and Fixed acquisition mode choice
 - Bin width, Max points and acquisition time customization
-- Draw frequency algorithm built upon update rate and number of channels inputs
+- Plots of single-photon counts as a function of time
 - Automatically set the correct firmware based on the connection channel selected (USB/SMA) 
 - UI errors handling improvements 
 - Export data functionality added
