@@ -12,5 +12,7 @@
 - UI errors handling improvements 
 - Export data functionality added
 - Add ```plot_data_file.py``` script to analyze and plot exported data
+- Add header and metadata information to the binary exported data
+- GUI now has a link to the technical documentation for more info 
 
 
