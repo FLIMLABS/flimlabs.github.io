@@ -32,7 +32,7 @@
 
 
 
-## Introduction {#introduction}
+## Introduction
 
 The [Intensity Tracing](https://github.com/flim-labs/intensity-tracing-py) tool allows seamless export of photons counts analyzed data to binary files, with convenient plotting and visualization capabilities. This guide provides an in-depth exploration of the **binary file structure**, offering a comprehensive understanding of how exported data is formatted and can be leveraged.
 
@@ -40,8 +40,7 @@ The [Intensity Tracing](https://github.com/flim-labs/intensity-tracing-py) tool 
 
 
 
-
-## File Format {#file-format}
+## File Format
 
 <div align="center">
     <img src="../../assets/exported-data-visualization.png" alt="GUI" width="100%">
@@ -69,7 +68,7 @@ After the metadata, the script enters a loop to read and process data in chunks 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Data Visualization {#data-visualization}
+## Data Visualization
 
 To visualize/plot your saved data, replace ```file_path``` value with the local path of your file:
 
@@ -83,7 +82,7 @@ You can find your file at this path:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Useful Links {#useful-links}
+## Useful Links
 
 For more details about the project follow these links:
 
@@ -97,7 +96,7 @@ For more details about the project follow these links:
 
 
 
-## License {#license}
+## License
 
 Distributed under the MIT License.
 
@@ -106,7 +105,7 @@ Distributed under the MIT License.
 
 
 <!-- CONTACT -->
-## Contact {#contact}
+## Contact
 
 FLIM LABS: info@flimlabs.com
 

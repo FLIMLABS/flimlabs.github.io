@@ -23,7 +23,7 @@
   </ol>
 </details>
 
-## Console usage {#console-usage}
+## Console usage
 
 <div align="center">
     <img src="../../assets/intensity-tracing-console.png" alt="GUI" width="100%">
@@ -43,7 +43,7 @@ Here a table summary of the configurable parameters on code side:
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Useful Links {#useful-links}
+## Useful Links
 
 For more details about the project follow these links:
 
@@ -53,7 +53,7 @@ For more details about the project follow these links:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## License {#license}
+## License
 
 Distributed under the MIT License.
 
@@ -61,7 +61,7 @@ Distributed under the MIT License.
 
 <!-- CONTACT -->
 
-## Contact {#contact}
+## Contact
 
 FLIM LABS: info@flimlabs.com
 
