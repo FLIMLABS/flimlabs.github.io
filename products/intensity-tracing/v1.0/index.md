@@ -17,7 +17,11 @@
     <li>
       <a href="#introduction">Introduction</a>
     </li>
-    <li><a href="#gui-usage">GUI Usage</a></li>
+    <li><a href="#gui-usage">GUI Usage</a>
+     <ul>
+    <li><a href="#set-draw-frequency">`set_draw_frequency` function algorithm</a></li>
+    </ul>
+    </li>
     <li><a href="#console-usage">Console Usage</a></li>
      <li><a href="#exported-data-visualization">Exported Data Visualization</a></li>
     <li><a href="#license">License</a></li>
@@ -27,21 +31,19 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## Introduction
+## Introduction {##introduction}
 
-Welcome to [FLIM LABS Intensity Tracing v1.0](https://github.com/flim-labs/intensity-tracing-py) usage guide. In this documentation section, you will find all the necessary information for the proper use of the application's **graphical user interface** (GUI).
+Welcome to [FLIM LABS Intensity Tracing](https://github.com/flim-labs/intensity-tracing-py) _v1.0_ usage guide. In this documentation section, you will find all the necessary information for the proper use of the application's **graphical user interface** (GUI).
 For a general introduction to the aims and technical requirements of the project, read the [Intensity Tracing Homepage](../index.md). You can also follow the [Console mode](../../python-flim-labs/intensity-tracing-console.md) and [Data export](../../python-flim-labs/intensity-tracing-file-format.md) dedicated guides links.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- USAGE EXAMPLES -->
 
-## GUI Usage
+## GUI Usage {#gui-usage}
 
 <div align="center">
-    <img src="../../../assets/intensity-tracing-gui.png" alt="GUI" width="100%">
+    <img src="../../../assets/intensity-tracing-gui-1.0.png" alt="GUI" width="100%">
 </div>
 
 The GUI mode provides advanced functionality for configuring analysis **parameters** and displaying live-streamed photon data. It allows simultaneous acquisition from up to **8 channels**, offering real-time data visualization in the form of plots:
@@ -64,7 +66,7 @@ Here a table summary of the configurable parameters:
 
 <br/>
 
-### `set_draw_frequency` function algorithm
+### `set_draw_frequency` function algorithm {#set-draw-frequency}
 
 The purpose of `set_draw_frequency` function is is to determine and set the charts drawing frequency based on certain conditions, taking into account the selected _update rate_ and the _number of enabled channels_.
 
@@ -101,21 +103,23 @@ def set_draw_frequency(self):
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Console Usage
-For a detailed guide about console mode usage follow this link:
-- [Intensity Tracing Console guide ](../../python-flim-labs/intensity-tracing-console.md)
+## Console Usage {#console-usage}
 
+For a detailed guide about console mode usage follow this link:
+
+- [Intensity Tracing Console guide ](../../python-flim-labs/intensity-tracing-console.md)
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Exported Data Visualization
-The application GUI allows the user to export the analysis data in ```binary file format```. For a detailed guide about data export and binary file structure see:
-- [Intensity Tracing Data Export guide ](../../python-flim-labs/intensity-tracing-file-format.md)
+## Exported Data Visualization {#exported-data-visualization}
 
+The application GUI allows the user to export the analysis data in `binary file format`. For a detailed guide about data export and binary file structure see:
+
+- [Intensity Tracing Data Export guide ](../../python-flim-labs/intensity-tracing-file-format.md)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## License
+## License {#license}
 
 Distributed under the MIT License.
 
@@ -123,7 +127,7 @@ Distributed under the MIT License.
 
 <!-- CONTACT -->
 
-## Contact
+## Contact {#contact}
 
 FLIM LABS: info@flimlabs.com
 

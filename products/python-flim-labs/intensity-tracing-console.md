@@ -23,7 +23,7 @@
   </ol>
 </details>
 
-## Console usage
+## Console usage {#console-usage}
 
 <div align="center">
     <img src="../../assets/intensity-tracing-console.png" alt="GUI" width="100%">
@@ -43,17 +43,17 @@ Here a table summary of the configurable parameters on code side:
 
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Useful Links
+## Useful Links {#useful-links}
 
 For more details about the project follow these links:
 
 - [Intensity Tracing introduction](../intensity-tracing/index.md)
-- [Intensity Tracing GUI guide](../intensity-tracing/v1.0/index.md)
+- [Intensity Tracing GUI guide](../intensity-tracing/v1.1/index.md)
 - [Intensity Tracing Data Export guide ](./intensity-tracing-file-format.md)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## License
+## License {#license}
 
 Distributed under the MIT License.
 
@@ -61,7 +61,7 @@ Distributed under the MIT License.
 
 <!-- CONTACT -->
 
-## Contact
+## Contact {#contact}
 
 FLIM LABS: info@flimlabs.com
 

@@ -1,5 +1,13 @@
 # Intensity Tracing Changelog
 
+## Version 1.1
+
+- Add export/load parameters configuration functionality
+- User can specify ```time_span``` parameter in order to control X axis range
+- ```max_points``` automatically calculated depending on ```bin_width```, ```time_span``` and ```draw_frequency```
+- Warning message system improvement
+
+
 ## Version 1.0 
 
 - UI/UX improvements
