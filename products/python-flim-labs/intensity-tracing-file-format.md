@@ -62,7 +62,7 @@ Following the header, metadata is stored in the file. This includes:
 ##### Data Records (40 bytes each):
 
 After the metadata, the script enters a loop to read and process data in chunks of 40 bytes. Each chunk represents a data record containing:
-- ```Timestamp (8 bytes)```: A double representing the photons' data acquisition time in milliseconds.
+- ```Timestamp (8 bytes)```: A double representing the photons' data acquisition time in seconds.
 - ```Channel Values (32 bytes)```: 8 unsigned integers (4 bytes each) representing photon counts for each channel at the corresponding timestamp.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
