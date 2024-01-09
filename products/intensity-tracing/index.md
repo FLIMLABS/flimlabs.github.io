@@ -41,7 +41,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project {#about-the-project}
+## About The Project
 
 Welcome to [FLIM LABS Intensity Tracing](https://github.com/flim-labs/intensity-tracing-py), a Python application designed to **analyze single-photon counts as a function of time** and plotting the intensity trace. Facilitated by an underlying data processor developed in Rust, responsible for data retrieval from the hardware component, this application enables real-time data analysis and visualization. Users can seamlessly transition between the graphical user interface (**GUI**) and **console** mode to navigate through the analytical capabilities. Whether your focus is on rigorous data analysis or dynamic visualizations, Intensity Tracing serves as a flexible tool for the precise measurement and exploration of photon intensity.
 
@@ -49,7 +49,7 @@ Welcome to [FLIM LABS Intensity Tracing](https://github.com/flim-labs/intensity-
 
 
 
-### Built With {#built-with}
+### Built With
 
 * [Python](https://www.python.org/)
 * [PyQt5](https://pypi.org/project/PyQt5/)
@@ -62,12 +62,12 @@ Welcome to [FLIM LABS Intensity Tracing](https://github.com/flim-labs/intensity-
 
 
 <!-- GETTING STARTED -->
-## Getting Started {#getting-started}
+## Getting Started
 To directly test the application, skipping the prerequisites and installation requirements you can download an installer at this [link](http://www.flimlabs.com/setup/intensity-tracing-setup.exe) (_Note: you still need to have the FLIM LABS acquisition card_). 
 
 To get a local copy up and running follow these steps.
 
-### Prerequisites {#prerequisites}
+### Prerequisites
 
 To be able to run this project locally on your machine you need to satisfy these requirements:
 * Possess a [FLIM LABS acquisition card](https://www.flimlabs.com/products/data-acquisition-card/) to be able to acquire your data
@@ -75,7 +75,7 @@ To be able to run this project locally on your machine you need to satisfy these
 * Python version >= 3.8
 * Windows OS
 
-### Installation {#installation}
+### Installation
 
 1. Clone the repo
    ```sh
@@ -103,7 +103,7 @@ To be able to run this project locally on your machine you need to satisfy these
 
 
 
-## Usage Guides {#usage-guides}
+## Usage Guides
 
 Navigate to the following links to view detailed application usage guides:
 
@@ -117,7 +117,7 @@ Navigate to the following links to view detailed application usage guides:
 
 
 
-## License {#license}
+## License
 
 Distributed under the MIT License.
 
@@ -126,7 +126,7 @@ Distributed under the MIT License.
 
 
 <!-- CONTACT -->
-## Contact {#contact}
+## Contact
 
 FLIM LABS: info@flimlabs.com
 
