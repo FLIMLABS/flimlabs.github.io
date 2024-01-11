@@ -73,11 +73,15 @@ After the metadata, the script enters a loop to read and process data in chunks 
 
 To visualize/plot your saved data, replace ```file_path``` value with the local path of your file:
 
-```file_path = 'INSERT DATA FILE PATH HERE'```
+```python
+file_path = 'INSERT DATA FILE PATH HERE'
+```
 
 You can find your file at this path:
 
-```C:\Users\YOUR_USER\.flim-labs\data```
+```python
+file_path = 'C:\\Users\\YOUR_USER\\.flim-labs\\data'
+```
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
