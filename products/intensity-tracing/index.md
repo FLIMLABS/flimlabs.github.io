@@ -8,7 +8,7 @@
 </div>
 <div align="center">
   <a href="https://www.flimlabs.com/">
-    <img src="../../assets/flimlabs-logo.png" alt="Logo" width="120" height="120">
+    <img src="../../assets/images/shared/flimlabs-logo.png" alt="Logo" width="120" height="120">
   </a>
 </div>
 <br>
@@ -85,15 +85,19 @@ To be able to run this project locally on your machine you need to satisfy these
    ```sh
    python -m venv venv
    ```
-3. Install the dependencies
+3. Activate the virtual environment:
+   ```sh
+   venv\Scripts\activate 
+   ```   
+4. Install the dependencies
    ```sh
    pip install -r requirements.txt
    ```
-4. Run the project with GUI mode
+5. Run the project with GUI mode
    ```sh
    python gui.py
    ```  
-5. Or run the project with Console mode
+6. Or run the project with Console mode
    ```sh
    python console.py   
    ```  
