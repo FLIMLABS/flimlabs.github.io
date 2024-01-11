@@ -7,7 +7,7 @@
 </div>
 <div align="center">
   <a href="https://www.flimlabs.com/">
-    <img src="../../assets/flimlabs-logo.png" alt="Logo" width="120" height="120">
+    <img src="../../assets/images/shared/flimlabs-logo.png" alt="Logo" width="120" height="120">
   </a>
 </div>
 <br>
@@ -23,7 +23,8 @@
       <a href="#introduction">Introduction</a>
     </li>
     <li><a href="#file-format">File Format</a></li>
-    <li><a href="#data-visualization">Data visualization</a></li>
+    <li><a href="#data-visualization">Data Visualization</a></li>
+    <li><a href="#download-example-files">Download Example Files </a></li>
     <li><a href="#useful-links">Useful links</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -43,7 +44,7 @@ The [Intensity Tracing](https://github.com/flim-labs/intensity-tracing-py) tool 
 ## File Format
 
 <div align="center">
-    <img src="../../assets/exported-data-visualization.png" alt="GUI" width="100%">
+    <img src="../../assets/images/python/exported-data-visualization.png" alt="GUI" width="100%">
 </div>
 
 To plot and visualize previously exported raw data (with GUI or console mode)  you can launch the```plot_data_file.py``` script. 
@@ -77,6 +78,52 @@ To visualize/plot your saved data, replace ```file_path``` value with the local 
 You can find your file at this path:
 
 ```C:\Users\YOUR_USER\.flim-labs\data```
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Download Example Files
+
+By clicking on this [link](../../assets/data/intensity-tracing-export-data-example.zip) you can download a compressed folder containing an example _Python script_, a _binary file of exported data_ and a _requirements.txt_ file with the needed libraries.
+
+Here the steps to make your tests:
+
+1. Move **intensity-tracing-export-data-example.bin** file to this path: 
+   ```sh
+   C:\Users\YOUR_USER\.flim-labs\data
+   ```
+2. In the **intensity_tracing_plot_data_file_example.py** file, comment out this line of code:   
+    ```python
+    file_path = get_recent_intensity_tracing_file()
+    ```
+3. Uncomment this line of code:   
+    ```python
+    # file_path = "INSERT DATA FILE PATH HERE" # You can also manually insert the path to the data file here
+    ```
+    and set the correct file path pointing to the .bin file:
+     ```python
+    file_path = "C:\\Users\\YOUR_USER\\.flim-labs\\data\\intensity-tracing-export-data-example.bin"
+    ```
+
+4. Set the virtual environment in the root downloaded unzipped folder:
+    ```sh
+    python -m venv venv 
+    ```
+5. Activate the virtual environment:
+   ```sh
+   venv\Scripts\activate 
+   ```
+6. Install the dependencies
+   ```sh
+   pip install -r requirements.txt
+   ```
+7. Run the example Python script:
+   ```sh
+   python intensity_tracing_plot_data_file_example.py
+   ```  
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

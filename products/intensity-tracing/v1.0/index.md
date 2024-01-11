@@ -5,7 +5,7 @@
 </div>
 <div align="center">
   <a href="https://www.flimlabs.com/">
-    <img src="../../../assets/flimlabs-logo.png" alt="Logo" width="120" height="120">
+    <img src="../../../assets/images/shared/flimlabs-logo.png" alt="Logo" width="120" height="120">
   </a>
 </div>
 <br>
@@ -43,7 +43,7 @@ For a general introduction to the aims and technical requirements of the project
 ## GUI Usage
 
 <div align="center">
-    <img src="../../../assets/intensity-tracing-gui-1.0.png" alt="GUI" width="100%">
+    <img src="../../../assets/images/python/intensity-tracing-gui-1.0.png" alt="GUI" width="100%">
 </div>
 
 The GUI mode provides advanced functionality for configuring analysis **parameters** and displaying live-streamed photon data. It allows simultaneous acquisition from up to **8 channels**, offering real-time data visualization in the form of plots:
