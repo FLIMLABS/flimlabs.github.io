@@ -93,6 +93,10 @@ To be able to run this project locally on your machine you need to satisfy these
    ```sh
    pip install -r requirements.txt
    ```
+6. Starting from the root, navigate to the correct folder:
+   ```sh
+   cd photons_tracing
+   ```     
 5. Run the project with GUI mode
    ```sh
    python gui.py
@@ -111,7 +115,7 @@ To be able to run this project locally on your machine you need to satisfy these
 
 Navigate to the following links to view detailed application usage guides:
 
-- [Intensity Tracing GUI guide](./v1.1/index.md)
+- [Intensity Tracing GUI guide](./v1.2/index.md)
 - [Intensity Tracing Console guide ](../python-flim-labs/intensity-tracing-console.md)
 - [Intensity Tracing Data export guide](../python-flim-labs/intensity-tracing-file-format.md)
 

@@ -1,5 +1,11 @@
 # Intensity Tracing Changelog
 
+## Version 1.2
+
+- Recalibration of GUI parameters related to max points on the chart and draw frequency to prevent overload
+- Max acquisition time value set to 1800s (30m)
+
+
 ## Version 1.1
 
 - Add export/load parameters configuration functionality
